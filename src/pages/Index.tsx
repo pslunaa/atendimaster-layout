@@ -10,12 +10,12 @@ const Index = () => {
           <ConversationSection />
         </ResizablePanel>
         
-        <ResizableHandle className="w-2 bg-[hsl(var(--divider))] hover:bg-[hsl(var(--divider-hover))] transition-colors relative group">
+        <ResizableHandle className="w-2 bg-[hsl(var(--divider))] hover:bg-[hsl(var(--divider-hover))] transition-colors relative group cursor-col-resize">
           <div className="absolute inset-y-0 left-1/2 -translate-x-1/2 flex items-center justify-center">
-            <div className="flex flex-col gap-1">
-              <div className="w-1 h-1 rounded-full bg-muted-foreground/50 group-hover:bg-muted-foreground transition-colors" />
-              <div className="w-1 h-1 rounded-full bg-muted-foreground/50 group-hover:bg-muted-foreground transition-colors" />
-              <div className="w-1 h-1 rounded-full bg-muted-foreground/50 group-hover:bg-muted-foreground transition-colors" />
+            <div className="flex flex-col gap-1.5 p-1">
+              <div className="w-1.5 h-1.5 rounded-full bg-muted-foreground/70 group-hover:bg-muted-foreground transition-colors" />
+              <div className="w-1.5 h-1.5 rounded-full bg-muted-foreground/70 group-hover:bg-muted-foreground transition-colors" />
+              <div className="w-1.5 h-1.5 rounded-full bg-muted-foreground/70 group-hover:bg-muted-foreground transition-colors" />
             </div>
           </div>
         </ResizableHandle>
